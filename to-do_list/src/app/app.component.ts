@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public items = [];
+  public items = ['Task 1', 'Task 2', 'Task 3'];
   public newTask = '';
 
 
@@ -20,8 +20,8 @@ export class AppComponent {
     }
   }
 
-  public deleteTask(index) {
-    this.items.splice(index, 1);
+  public deleteTask(index: number) {
+    this.items.splice(1);
   }
   
 }
