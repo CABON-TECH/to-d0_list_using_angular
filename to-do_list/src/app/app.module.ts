@@ -14,7 +14,7 @@ import { ToDoComponent } from './to-do/to-do.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    //AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
