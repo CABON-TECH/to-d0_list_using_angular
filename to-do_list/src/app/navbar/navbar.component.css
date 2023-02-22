@@ -2,3 +2,6 @@
     position: relative;
     top: -60px;
 }
+.cursor-pointer{
+    cursor: pointer;
+}

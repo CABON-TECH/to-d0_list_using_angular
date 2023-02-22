@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ToDoComponent } from './to-do/to-do.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
