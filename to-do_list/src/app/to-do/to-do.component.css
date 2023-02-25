@@ -1,0 +1,9 @@
+.container{
+  border: 1px solid black;
+  width: 800px;
+  position: relative;
+  left: 300px;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+}
